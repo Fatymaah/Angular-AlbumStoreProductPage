@@ -2,13 +2,23 @@
   font-size: 16px;
   padding-top: 10px;
 }
-ul{
+.tracklisting ul {
   list-style-type: none;
+
 }
-li{
+.tracklisting ul li{
   display: block;
   line-height: 30px;
+
 }
-button{
+.tracklisting ul li div{
+  display: inline;
+}
+.col-sm-3 span{
+  padding-right: 10px;
+  float: right;
+}
+
+.tracklisting ul li button{
   line-height: 1;
 }
